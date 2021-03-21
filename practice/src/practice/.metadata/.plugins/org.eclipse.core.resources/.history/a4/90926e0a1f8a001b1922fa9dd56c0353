@@ -1,0 +1,21 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetDemo {
+	
+	public static void main(String[] args)
+	
+	{
+		Set<Integer> k = new HashSet<>();
+		k.add(524);
+		k.add(54549);
+		k.add(524);
+		k.add(46549);
+		
+		for(int i : k)
+		{
+			System.out.println(i);
+		}
+	}
+
+}

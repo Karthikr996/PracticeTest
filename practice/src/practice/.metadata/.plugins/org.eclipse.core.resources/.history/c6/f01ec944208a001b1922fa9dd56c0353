@@ -1,0 +1,24 @@
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class SetDemo {
+	
+	public static void main(String[] args)
+	
+	{
+		Set<Integer> k = new HashSet<>();
+		k.add(524);
+		k.add(54549);
+		k.add(524);
+		k.add(46549);
+		
+		Collections.synchronizedSet(k);
+		for(int i : k)
+		{
+			System.out.println(i);
+		}
+	}
+
+}
